@@ -16,47 +16,47 @@
   </style>
  </head>
  <body class="bg-[#f8e4dc]">
-  <!-- Top Bar -->
-  <div class="bg-black text-white text-center py-2 text-sm">
-    WE OFFER EXTENDED HOURS TO FIT YOUR SCHEDULE | WALK-INS WELCOME
-   </div>
-   <!-- Header -->
-   <header class="bg-[#f8e4dc] shadow-md">
-    <div class="container mx-auto flex justify-between items-center py-4 px-6">
-     <div class="flex items-center">
-      <img alt="Langhorne Family Smiles Logo" class="h-12" height="50" src="./images/logo.webp" width="250"/>
-      <div class="ml-4">
-       <p class="text-sm">
-        712A Trenton Road, Langhorne, PA 19047
-       </p>
-       <p class="text-sm">
-        <i class="fas fa-phone-alt"></i> 215-752-5505
-       </p>
+    <!-- Top Bar -->
+    <div class="bg-black text-white text-center py-2 text-sm">
+      WE OFFER EXTENDED HOURS TO FIT YOUR SCHEDULE | WALK-INS WELCOME
+     </div>
+     <!-- Header -->
+     <header class="bg-[#f8e4dc] shadow-md">
+      <div class="container mx-auto flex justify-between items-center py-4 px-6">
+       <div class="flex items-center">
+        <img alt="Langhorne Family Smiles Logo" class="h-12" height="50" src="./images/logo.webp" width="250"/>
+        <div class="ml-4 hidden lg:block">
+         <p class="text-sm">
+          712A Trenton Road, Langhorne, PA 19047
+         </p>
+         <p class="text-sm">
+          <i class="fas fa-phone-alt"></i> 215-752-5505
+         </p>
+        </div>
+       </div>
+       <div class="block lg:hidden">
+        <button class="text-gray-700 hover:text-teal-600 focus:outline-none focus:text-teal-600" id="nav-toggle">
+         <i class="fas fa-bars"></i>
+        </button>
+       </div>
+       <nav class="hidden lg:flex space-x-4" id="nav-content">
+        <a class="text-gray-700 hover:text-teal-600" href="#">HOME</a>
+        <a class="text-gray-700 hover:text-teal-600" href="#">ABOUT</a>
+        <a class="text-gray-700 hover:text-teal-600" href="#">PATIENT RESOURCES</a>
+        <a class="text-gray-700 hover:text-teal-600" href="#">OUR SERVICES</a>
+        <a class="text-gray-700 hover:text-teal-600" href="#">CONTACT</a>
+       </nav>
       </div>
-     </div>
-     <div class="block lg:hidden">
-      <button class="text-gray-700 hover:text-teal-600 focus:outline-none focus:text-teal-600" id="nav-toggle">
-       <i class="fas fa-bars"></i>
-      </button>
-     </div>
-     <nav class="hidden lg:flex space-x-4" id="nav-content">
-      <a class="text-gray-700 hover:text-teal-600" href="#">HOME</a>
-      <a class="text-gray-700 hover:text-teal-600" href="#">ABOUT</a>
-      <a class="text-gray-700 hover:text-teal-600" href="#">PATIENT RESOURCES</a>
-      <a class="text-gray-700 hover:text-teal-600" href="#">OUR SERVICES</a>
-      <a class="text-gray-700 hover:text-teal-600" href="#">CONTACT</a>
-     </nav>
-    </div>
-    <div class="lg:hidden">
-     <nav class="flex flex-col space-y-2 px-6 py-2 hidden" id="mobile-nav-content">
-      <a class="text-gray-700 hover:text-teal-600" href="#">HOME</a>
-      <a class="text-gray-700 hover:text-teal-600" href="#">ABOUT</a>
-      <a class="text-gray-700 hover:text-teal-600" href="#">PATIENT RESOURCES</a>
-      <a class="text-gray-700 hover:text-teal-600" href="#">OUR SERVICES</a>
-      <a class="text-gray-700 hover:text-teal-600" href="#">CONTACT</a>
-     </nav>
-    </div>
-   </header>
+      <div class="lg:hidden">
+       <nav class="flex flex-col space-y-2 px-6 py-2 hidden" id="mobile-nav-content">
+        <a class="text-gray-700 hover:text-teal-600" href="#">HOME</a>
+        <a class="text-gray-700 hover:text-teal-600" href="#">ABOUT</a>
+        <a class="text-gray-700 hover:text-teal-600" href="#">PATIENT RESOURCES</a>
+        <a class="text-gray-700 hover:text-teal-600" href="#">OUR SERVICES</a>
+        <a class="text-gray-700 hover:text-teal-600" href="#">CONTACT</a>
+       </nav>
+      </div>
+     </header>
   <!-- Main Content -->
   <main class="container mx-auto py-10 px-6">
    <div class="bg-cover bg-center h-64 flex items-center justify-center" style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./images//out-doctor.jpg');">
@@ -64,7 +64,7 @@
      Meet Our Doctor
     </h2>
    </div>
-   <div class="mt-10 flex flex-col lg:flex-row">
+   <div class="lg:w-2/3 p-6 shadow-md bg-[#f8e4dc] border border-[#d6b9a1] rounded-lg">
     <div class="lg:w-2/3 p-6 shadow-md bg-white">
      <div class="flex items-center mb-6"> 
       <img alt="Dr. Jayashree Thorat" class="h-24 w-24 rounded-full mr-6" height="100" src="https://storage.googleapis.com/a1aa/image/T0Q5L95elzVCDCHCv6n46Bs4eSmJkUnPI0Q4fo2pDUDF4uePB.jpg" width="100"/>
@@ -195,14 +195,14 @@
        <h3 class="text-lg font-semibold">
         GET STARTED TODAY
        </h3>
-       <a class="mt-2 inline-block bg-teal-600 hover-swap text-white py-2 px-4 rounded" href="#">
+       <a class="mt-2 inline-block bg-teal-600 hover-swap text-white py-2 px-4 rounded" href="https://www.appointnow.com/?P=4701&O=100&PT=0&campaignID=123" target="_blank" rel="noopener noreferrer">
         REQUEST AN APPOINTMENT
        </a>
       </div>
      </div>
      <p class="mt-8 text-gray-400 text-sm">
-      © 2023 Langhorne Family Smiles. All rights reserved. | Privacy Policy | Website Design by
-      <a class="text-teal-600" href="#">BizSitePro</a>
+      &copy; 2023 Langhorne Family Smiles. All rights reserved. | Website Design by
+      <a class="text-teal-600" href="https://mastical.com">Mastical</a>
      </p>
      <a class="mt-4 inline-block bg-yellow-500 hover-swap text-black py-2 px-4 rounded" href="#">
       Book Online
