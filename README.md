@@ -5,6 +5,23 @@ This is an HTML project for a dental website.
 ## Directory Structure
 
 The project has the following directory structure:
+Directory structure:
+└── 404reese-mastical-dw/
+    ├── about-our-doctors.html
+    ├── about-our-office.html
+    ├── financial-options.html
+    ├── index.html
+    └── images/
+        ├── 1.webp
+        ├── 2.webp
+        ├── 3.webp
+        ├── 4.webp
+        ├── 5.webp
+        ├── 6.webp
+        ├── cherry-logo.webp
+        ├── footlogo.webp
+        ├── logo.webp
+        └── ourhistoryphoto.webp
 
 
 ## Files
